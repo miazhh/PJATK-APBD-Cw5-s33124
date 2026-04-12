@@ -23,6 +23,6 @@ public class Reservation
     [Required]
     public TimeOnly EndTime { get; set; }
     
-    public string Status { get; set; } = "planned";
+    public string Status { get; set; } = "zaplanowane";
 }
     
